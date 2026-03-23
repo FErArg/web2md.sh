@@ -1,2 +1,6 @@
 # web2md.sh
-It is provided with a list of URLs in the file “lista_de_urls.txt”; it downloads the page content in Markdown format and saves it in the “descargas_md” directory, using the page title as the filename.
+Web2MD lets you download web pages and convert them to Markdown format from the CLI.
+
+1. Create a file named “list_of_urls.txt” containing the list of websites to download.
+2. Run the tool: `./web2md.sh list_of_urls.txt`
+3. It downloads the content of the pages in Markdown format and stores it in the “downloads_md” directory, using the page title as the filename.
